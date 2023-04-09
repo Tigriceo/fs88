@@ -14,3 +14,10 @@ body{
     /* color: red; */
     border-bottom: 1px solid red;
 }
+
+.address{
+    font-style: normal;
+}
+.link{
+    font-style: normal;
+}
