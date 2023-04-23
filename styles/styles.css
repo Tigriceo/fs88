@@ -1,0 +1,34 @@
+/* .nav-list__item:hover{
+    background-color: red;
+} */
+body {
+  font-family: "Inter", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.nav-list__link {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.nav-list__link:hover,
+.nav-list__link:focus {
+  /* color: red; */
+  border-bottom: 1px solid red;
+}
+
+.address {
+  font-style: normal;
+}
+.link {
+  font-style: normal;
+}
