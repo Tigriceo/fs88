@@ -16,7 +16,11 @@ ul {
   margin: 0;
   padding: 0;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 ul {
   list-style: none;
 }
@@ -55,11 +59,28 @@ a {
 .nav-list__link {
   font-size: 12px;
   line-height: 1.25;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .logo {
   font-size: 28px;
   line-height: 1.21;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.user-img-wrap {
+  width: 150px;
+  height: 150px;
+}
+.user-img {
+  max-width: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+.user-img-bg {
+  width: 150px;
+  height: 150px;
+  background: url(../images/team1.png);
+  background-size: cover;
+  background-position: center;
 }
