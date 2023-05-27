@@ -41,8 +41,16 @@ a {
 
 /* header */
 .header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 24px;
   padding: 19px 0;
-  background: linear-gradient(90.03deg, rgba(0, 197, 235, 0.3) -1.97%, rgba(181, 68, 254, 0.3) 89.43%);
+  background: linear-gradient(
+    90.03deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
 }
 
 .header__block {
@@ -83,4 +91,53 @@ a {
   background: url(../images/team1.png);
   background-size: cover;
   background-position: center;
+}
+/* hero */
+.hero {
+  background-color: #06071b;
+  padding-top: 243px;
+  padding-bottom: 146px;
+}
+.hero-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+.hero-desc {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.hero-list {
+  display: flex;
+  margin-bottom: 60px;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.hero-btn {
+  cursor: pointer;
+  padding: 11px 60px 12px 61px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  border-radius: 5px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #06071b;
+  border-radius: 5px;
+  border-color: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
 }
